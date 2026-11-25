@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://maf3tech.com.br/sitemap-index.xml
