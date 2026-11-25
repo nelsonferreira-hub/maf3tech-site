@@ -13,3 +13,8 @@ RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 # Página de erro 404
 ErrorDocument 404 /404.html
+
+# Configuração do formulário: sem acesso pela web
+<Files "contato-config.php">
+  Require all denied
+</Files>
